@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif Display", serif;
+}
+
+/*-- Header Starts Here --*/
+.main-container {
+  height: 100vh;
+  overflow: auto;
+}
+.block-row {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: fixed;
+  background-blend-mode: darken;
+}
+
+/*-- Menu Starts Here--*/
+.menu {
+  display: block;
+  background: -webkit-linear-gradient(top, #16151557, #16151557);
+  background: -moz-linear-gradient(top, #16151557, #16151557);
+  background: -o-linear-gradient(top, #16151557, #16151557);
+  background: linear-gradient(top, #16151557, #16151557);
+  -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5),
+    0px 1px 2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5),
+    0px 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5),
+    0px 1px 2px rgba(0, 0, 0, 0.15);
+  background-color: #16151557;
+  border-bottom: 1px solid #fff;
+  position: fixed;
+  top: 0px;
+  z-index: 3;
+  opacity: 0.97;
+  width: 100%;
+}
+.logo {
+  padding: 0px 0;
+  float: left;
+  max-width: 100%;
+}
+.top-nav {
+  float: right;
+}
+.top-nav ul li {
+  display: inline-block;
+}
+.top-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  display: block;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
+.top-nav li.active > a,
+.top-nav li > a:hover {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+/*-- Menu Ends here*/
+
+.mainImage img {
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  padding: 3px;
+  border-radius: 4%;
+  -webkit-border-radius: 4%;
+  -moz-border-radius: 4%;
+  -o-border-radius: 4%;
+}
+.mainImage a {
+  color: #555;
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+.mainImage a {
+  font-size: 1em;
+  padding-left: 5px;
+  color: #2a323a;
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
+.header-content h3 {
+  font-size: 80px;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0px 0 16px;
+  line-height: 1.2;
+}
+
+.header-content h6 {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.header-content h4 {
+  font-size: 2em;
+  padding: 0;
+  font-weight: 700;
+  text-align: center;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.header-content h4 span.text {
+  font-weight: normal;
+  color: #facf5a;
+}
